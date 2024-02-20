@@ -3,7 +3,8 @@ public:
     int missingNumber(vector<int>& nums) {
         // find the missing number in a array
         int sum = 0; // sum of all numbers initially 0
-        int total = nums.size()*(nums.size() + 1)/2; // total is the sum of all numbers in the array
+        int n = nums.size();
+        int total = n*(n + 1)/2; // total is the sum of all numbers in the array
         for (auto number : nums) { // iterate through the array
             sum += number; // add the number to the sum
         }
