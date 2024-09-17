@@ -4,7 +4,7 @@ public:
         // we need to find unique occurences
         string s = s1 + " " + s2;
 
-        cout<<s1.max_size();
+        // cout<<s1.max_size();
 
         // store all words from s
         unordered_map<string,int> um;
