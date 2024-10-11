@@ -14,7 +14,7 @@ public:
                 s.insert(q.top().second);
                 q.pop();
             }
-			//if set size is not 0 then current seat will be s.begin() else current seat will be n
+		//if set size is not 0 then current seat will be s.begin() else current seat will be n
             if(s.size()!=0){         
                 cs=*(s.begin());
                 s.erase(s.begin());
