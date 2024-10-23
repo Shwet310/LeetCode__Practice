@@ -13,8 +13,8 @@ class Solution {
 public:
     TreeNode* replaceValueInTree(TreeNode* root) {
         root->val = 0;
-    queue<TreeNode*> q;  q.push(root);
-    while(!q.empty()){
+        queue<TreeNode*> q;  q.push(root);
+        while(!q.empty()){
         int n = q.size(), sum = 0;
         vector<TreeNode*> buf;
         while(n--){
